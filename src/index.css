@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glassmorphism-stat {
+  border-radius: 8px;
+  backdrop-filter: blur(4.6px);
+  -webkit-backdrop-filter: blur(4.6px);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgb(106, 106, 106);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
